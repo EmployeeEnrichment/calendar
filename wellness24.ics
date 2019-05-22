@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Baghdad
+TZURL:http://tzurl.org/zoneinfo-outlook/Asia/Baghdad
+X-LIC-LOCATION:Asia/Baghdad
+BEGIN:STANDARD
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0300
+TZNAME:+03
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20190522T120058Z
+UID:20190522T120058Z-1360775906@marudot.com
+DTSTART;TZID=Asia/Baghdad:20190524T140000
+DTEND;TZID=Asia/Baghdad:20190524T150000
+SUMMARY:Wellness Session AHA (Yoga & Meditation)
+DESCRIPTION:*** Additional Information***\n* The class is divided in 10 minutes sessions so you can join during your break *\n* Classes are related to breathing/relaxation techniques and accessible yoga movements that can be practiced at your desk to release build up of tension/stress\, increase blood circulation & overall physical mental wellness *\n* No need to register\, come and join! *
+LOCATION:Alice De Conti's MeetMe
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Wellness Session AHA (Yoga & Meditation)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
