@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Baghdad
+TZURL:http://tzurl.org/zoneinfo-outlook/Asia/Baghdad
+X-LIC-LOCATION:Asia/Baghdad
+BEGIN:STANDARD
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0300
+TZNAME:+03
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20190520T151337Z
+UID:20190520T151337Z-917898286@marudot.com
+DTSTART;TZID=Asia/Baghdad:20190524T140000
+DTEND;TZID=Asia/Baghdad:20190524T150000
+SUMMARY:Yoga / Meditation Session
+DESCRIPTION:For the month of May\, your EE team has partnered up with the Wellness centre to bring you workshops to help you with your well-being. Each session will be 10 minutes long within the hour and focus on different themes. You are free to come in your breaks and lunch. Stay for as long as you want. Equipment will be provided. Enjoy! 
+LOCATION:Alice De Conti's Meet Me
+END:VEVENT
+END:VCALENDAR
